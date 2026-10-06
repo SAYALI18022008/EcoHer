@@ -1,0 +1,121 @@
+{
+  "users": [
+    {
+      "id": "1950c72b-b699-4499-a0ee-d5b3a74e86a8",
+      "name": "EcoHer Admin",
+      "email": "admin@ecoher.com",
+      "passwordHash": "$2a$10$kT0OYPhglOHT8XeyYc4YR.3vHhyG69ofVGHACV/M0RTNH.EVem/RK",
+      "role": "admin",
+      "location": "Pune",
+      "language": "English"
+    },
+    {
+      "id": "d41253e7-88cf-46fe-a922-bbd2e5c9d360",
+      "name": "Asha",
+      "email": "asha@ecoher.com",
+      "passwordHash": "$2a$10$AeyRUsrpH04FpI12iNKvjOyDKBApPQ2P/bgh9/hb/9guihsicP5/W",
+      "role": "entrepreneur",
+      "location": "Pune",
+      "language": "English"
+    },
+    {
+      "id": "e2a16479-af57-416a-88d6-262c5db7a189",
+      "name": "Meena Sharma",
+      "email": "meena@ecoher.com",
+      "passwordHash": "$2a$10$5oeWUf27ci/3r9Cviz6Kw.qiwwS7.1gLce81pypOEajBbCJNzwFnu",
+      "role": "mentor",
+      "location": "Pune",
+      "language": "English"
+    }
+  ],
+  "businesses": [
+    {
+      "id": "7bd50acc-0cd5-4b04-b445-05c4b66c35e1",
+      "ownerId": "d41253e7-88cf-46fe-a922-bbd2e5c9d360",
+      "businessName": "Asha Upcycles",
+      "category": "Upcycled Fashion",
+      "description": "Sustainable products made from discarded textile materials.",
+      "city": "Pune",
+      "state": "Maharashtra",
+      "sustainabilityType": "Textile Waste Reuse",
+      "verificationLevel": "Community Verified",
+      "verificationStatus": "approved",
+      "story": "Asha creates useful everyday products from old sarees and discarded textiles.",
+      "founderName": "Asha",
+      "contactEmail": "asha@ecoher.com",
+      "contactPhone": "",
+      "createdAt": "2026-10-05T19:38:18.554Z",
+      "updatedAt": "2026-10-05T19:38:18.555Z"
+    }
+  ],
+  "products": [
+    {
+      "id": "d5f8dc79-1302-4ae6-8d31-bce8303665b4",
+      "businessId": "7bd50acc-0cd5-4b04-b445-05c4b66c35e1",
+      "productName": "Upcycled Saree Tote Bag",
+      "description": "Reusable tote bag made from an upcycled saree.",
+      "price": 499,
+      "materialUsed": "Upcycled saree fabric",
+      "imageUrl": "",
+      "isAvailable": true,
+      "createdAt": "2026-10-05T19:38:18.555Z"
+    },
+    {
+      "id": "b317cf29-55d3-4b4b-9a46-dd6b58fcc511",
+      "businessId": "7bd50acc-0cd5-4b04-b445-05c4b66c35e1",
+      "productName": "Reusable Fabric Pouch",
+      "description": "Reusable pouch made from leftover textile material.",
+      "price": 199,
+      "materialUsed": "Reused fabric",
+      "imageUrl": "",
+      "isAvailable": true,
+      "createdAt": "2026-10-05T19:38:18.555Z"
+    }
+  ],
+  "verificationSubmissions": [],
+  "impactRecords": [
+    {
+      "id": "57eb2e88-b10c-4898-924b-1022b09c9492",
+      "businessId": "7bd50acc-0cd5-4b04-b445-05c4b66c35e1",
+      "metricType": "textile_waste_reused",
+      "value": 18,
+      "unit": "kg",
+      "calculationMethod": "36 products × 0.5 kg textile waste per product = 18 kg",
+      "isEstimated": true,
+      "createdAt": "2026-10-05T19:38:18.555Z"
+    },
+    {
+      "id": "6f66278e-a9b0-4bfe-bb63-13d65bbfe462",
+      "businessId": "7bd50acc-0cd5-4b04-b445-05c4b66c35e1",
+      "metricType": "women_supported",
+      "value": 3,
+      "unit": "people",
+      "calculationMethod": "Number of women supported by the entrepreneur-provided data.",
+      "isEstimated": true,
+      "createdAt": "2026-10-05T19:38:18.555Z"
+    }
+  ],
+  "mentorProfiles": [
+    {
+      "id": "65a3cb47-1207-4738-9068-65ee95470a30",
+      "userId": "e2a16479-af57-416a-88d6-262c5db7a189",
+      "bio": "Mentor supporting sustainable entrepreneurs.",
+      "expertise": [
+        "Branding",
+        "Product Photography",
+        "Instagram Marketing"
+      ],
+      "languages": [
+        "English",
+        "Hindi",
+        "Marathi"
+      ],
+      "yearsOfExperience": 4,
+      "available": true,
+      "city": "Pune",
+      "createdAt": "2026-10-05T19:38:18.555Z",
+      "updatedAt": "2026-10-05T19:38:18.555Z"
+    }
+  ],
+  "mentorshipRequests": []
+}
